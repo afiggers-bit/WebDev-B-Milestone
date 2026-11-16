@@ -1,0 +1,33 @@
+#hero-banner img {
+    border-radius: 8px;
+    margin-bottom: 16px;
+    display: block;
+}
+
+.card ul {
+    padding-left: 24px;
+}
+
+.card li {
+    margin-bottom: 8px;
+}
+
+#hero-banner img {
+    border-radius: 8px;
+    margin-bottom: 16px;
+    display: block;
+}
+
+@media (min-width: 768px) {
+    #hero-banner {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    }
+}
+@media (min-width: 360px) {
+    #hero-banner img {
+        width: 200px;
+        height: auto;
+    }
+}
