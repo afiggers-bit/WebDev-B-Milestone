@@ -39,7 +39,6 @@ h3 {
     color: #0F172A;
     line-height: 1.2;
     margin-bottom: 16px;
-    /* 8px x 2 */
 }
 
 h1 {
@@ -110,6 +109,6 @@ footer a {
 .grid-section {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 24px; /* 8px x 3 */
+  gap: 24px;
   margin-top: 24px;
 }
